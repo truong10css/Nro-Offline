@@ -21,7 +21,7 @@ echo "\033[1;92mLua chon: \033[1;33m";
     if ($luachon == 1)  {
     sleep(1);
   //system('pkg install openjdk-17 -y -y && wget -O mad.zip  https://github.com/Mad-Neko/backup1/blob/main/mad.zip?raw=true && unzip mad.zip && clear ');
-  system('pkg install openjdk-17 -y -y && wget -O src.zip  https://github.com/truong10css/Nro-Offline_src/blob/main/src.zip?raw=true && unzip src.zip && clear ');
+  system('pkg install openjdk-17 -y -y && wget -O src.zip  https://github.com/truong10css/Nro-Offline/blob/main/src.zip?raw=true && unzip src.zip && clear ');
 system('rm -rf src.zip');
 system('clear');
     
