@@ -11,6 +11,7 @@ echo "\033[1;92m
 
 echo "\033[1;96m[1] SetUp\n";
 echo "\033[1;932m[2] Run server\n";
+echo "\033[1;91m[3] Exit\n";
 echo "\033[1;92mLua chon: \033[1;33m";
 
 $luachon = trim(fgets(STDIN));
@@ -24,6 +25,9 @@ if ($luachon == 1) {
 } else if ($luachon == 2) {
     sleep(1);
     system('java -Xms2G -Xmx2G -jar dist/mad.jar');
+} else if ($luachon == 3) {
+    echo "\033[1;91mTam biet!\n";
+    sleep(1);
 } else {
     echo "\033[1;91mChon Sai Vui Lòng Chọn Lại\n";
     echo "\033[1;93m-------------------------------------------------------------\n";
