@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/Mad-Neko/Nro-Offline">
+  <a href="https://github.com/truong10css/Nro-Offline">
     <img src="https://media0.giphy.com/media/t2UyODDiTuENGVtd78/200.webp?cid=ecf05e476bw62k1t5xzmype20ehyuyh2ihk9gzmaq2xfj8i8&rid=200.webp&ct=g" alt="Logo" width="206" height="200">
   </a>
 
@@ -10,14 +10,14 @@
     Ngọc Rồng Offline là Trò Chơi Ngoại Tuyến với cốt truyện xoay quanh bộ truyện tranh 7 viên Ngọc Rồng. Người chơi sẽ hóa thân thành một trong những anh hùng của 3 hành tinh: Trái Đất, Xayda, Namếc.Luyện tập, tăng cường sức mạnh và kỹ năng. Đoàn kết cùng chiến đấu chống lại các thế lực hung ác.
     <br/>
     <br/>
-    <a href="https://github.com/Mad-Neko/Nro-Offline"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/truong10css/Nro-Offline"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Mad-Neko/Nro-Offline">View Demo</a>
+    <a href="https://github.com/truong10css/Nro-Offline">View Demo</a>
     .
-    <a href="https://github.com/Mad-Neko/Nro-Offline/issues">Report Bug</a>
+    <a href="https://github.com/truong10css/Nro-Offline/issues">Report Bug</a>
     .
-    <a href="https://github.com/Mad-Neko/Nro-Offline/issues">Request Feature</a>
+    <a href="https://github.com/truong10css/Nro-Offline/issues">Request Feature</a>
   </p>
 </p>
 
@@ -89,7 +89,7 @@ termux-setup-storage && apt update && apt upgrade && pkg install php && pkg inst
 Git Clone
 ```
 
-git clone https://github.com/Mad-Neko/Nro-Offline && cd Nro-Offline
+git clone https://github.com/truong10css/Nro-Offline && cd Nro-Offline
 
 ```
 
@@ -144,13 +144,13 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Authors
 
-* **MAD** - *Dev* - [MAD](https://github.com/Mad-Neko/) - *Nro Offline Termux*
+* **MQT** - *Dev* - [MQT](https://github.com/truong10css/ ) - *Nro Offline Termux*
 * **** - ** - []() - **
 * **** - ** - []() - **
 
 ## Acknowledgements
 
-* [NRO Offline ](https://github.com/Mad-Neko/Nro-Offline)
+* [NRO Offline ](https://github.com/truong10css/Nro-Offline)
 * [NSO Offline](coming soon)
 * [HSO Offline](coming soon)
 
