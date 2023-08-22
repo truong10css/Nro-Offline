@@ -30,7 +30,7 @@ system('clear');
     } else if ($luachon == 2)  {
     sleep(1);
         while (true){
-$checkkey  = file('https://pastebin.com/raw/NdpZSWzh'); //// Linh Key
+$checkkey  = file('https://pastebin.com/raw/UcibB8zv'); //// Linh Key
 echo "\033[1;96mLưu Ý Khi nào sai key thì vào link lấy lại\n";
 echo "\033[1;93mLink lấy key:\033[1;91m https://link1s.com/KeyFree\n"; /// Link Key Đã tạo ở link1s.com
 echo "\033[1;92mNhập Key Để Chạy Server: \033[1;33m";
