@@ -1,3 +1,3 @@
-# run dragon.py
+# run nrotruong.py
 from marshal import loads
-exec(loads(open('dragon.py','rb').read()))
+exec(loads(open('nrotruong.py','rb').read()))
