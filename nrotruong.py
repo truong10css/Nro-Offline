@@ -27,7 +27,7 @@ while True:
         os.system('pkg install openjdk-17 -y -y')
         os.system('clear')
     elif luachon == "2":
-        src_zip_path = '/sdcard/Download/nro1.zip'
+        src_zip_path = '/sdcard/Download/nro.zip'
         unzip_dir = '/data/data/com.termux/files/home/nro_folder/'
         
         if os.path.exists(unzip_dir):
@@ -39,8 +39,7 @@ while True:
             os.system('unzip nro1.zip && clear')
             os.system('clear')
     elif luachon == "3":
-        os.system('java -version')
-        os.system('java -jar nro_dolder/nro1/nro1/dist/Heroes_Z.jar')
+            os.system('java -Xms2G  -Xmx2G -jar /data/data/com.termux/files/home/nro_dolder/BARCOLL_NROKING/dist/Heroes_Z.jar')
     elif luachon == "4":
         ngrok_auth_token = input("Nhập token ngrok của bạn: ").strip()
         port = input("Nhập port game: ").strip()
