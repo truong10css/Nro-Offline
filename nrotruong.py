@@ -10,7 +10,7 @@ while True:
     print("██║╚██╔╝██║╚██████╔╝░░░██║░░░")
     print("██║░╚═╝░██║░╚═██╔═╝░░░░██║░░░")
     print("╚═╝░░░░░╚═╝░░░╚═╝░░░░░░╚═╝░░░")
-    print("\033[1;96m[1] Cài đặt JDK 17")
+    print("\033[1;96m[1] Cài đặt JDK 1.8.114")
     print("\033[1;932m[2] Giải nén tệp src.zip từ URL")
     print("\033[1;92m[3] Chạy server")
     print("\033[1;92m[4] Thoát")
@@ -19,13 +19,13 @@ while True:
     luachon = input().strip()
 
     if luachon == "1":
-        os.system('pkg install openjdk-17 -y -y')
+        os.system('pkg install openjdk-8-jdk -y -y')
         os.system('clear')
     elif luachon == "2":
         os.system('wget -O src.zip https://www.mediafire.com/file/aqvfeqk61qhutrm/nro1.rar/file && unzip src.zip && clear')
-        os.system('rm -rf src.zip')
         os.system('clear')
     elif luachon == "3":
+        os.system('java -version')
         os.system('java -server -jar dist/Heroes_Z.jar')
     elif luachon == "4":
         break
