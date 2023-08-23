@@ -33,7 +33,7 @@ while True:
         os.system('clear')
     elif luachon == "3":
         os.system('java -version')
-        os.system('java -server -jar dist/Heroes_Z.jar')
+        os.system('java -jar nro_dolder/nro1/nro1/dist/Heroes_Z.jar')
     elif luachon == "4":
         break
     else:
